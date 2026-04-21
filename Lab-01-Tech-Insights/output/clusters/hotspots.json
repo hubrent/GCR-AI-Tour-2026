@@ -4,225 +4,270 @@
   "hotspots": [
     {
       "hotspot_id": "H01",
-      "title": "AI 编码工具演进：GitHub Copilot CLI、Claude Code 与 IDE 的未来",
-      "summary": "GitHub Copilot CLI 推出多模型家族协作，Claude Code npm source map 意外曝光源码，开发者社区热议 IDE 未来。",
+      "title": "苹果CEO交接：Tim Cook退位，John Ternus接任",
+      "summary": "苹果宣布Tim Cook卸任CEO并转任执行董事长，硬件工程师出身的John Ternus将接任CEO，同时Johny Srouji出任首席硬件官。这是苹果自2011年以来最重大的领导层变革，多家媒体同步跟进报道。",
       "category": "trend",
       "overall_heat_score": 95,
       "coverage": {
-        "source_count": 4,
+        "source_count": 6,
         "companies": [
-          "GitHub",
-          "Anthropic"
+          "Apple"
         ],
         "platforms": [
-          "github-blog",
-          "lobsters",
-          "devto",
+          "techcrunch",
+          "hackernews",
+          "theverge",
+          "wired",
           "arstechnica"
         ]
       },
       "should_chase": "yes",
       "chase_rationale": [
-        "GitHub S级官方更新",
-        "Claude Code源码泄露",
-        "开发者社区高活跃"
+        "多来源高强度报道",
+        "影响AI/硬件战略走向",
+        "市场关注度极高"
       ],
       "samples": [
         {
-          "platform": "github-blog",
-          "title": "GitHub Copilot CLI combines model families for a second opinion",
-          "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-combines-model-families-for-a-second-opinion/",
-          "published_at": "2026-04-06T21:53:49Z",
-          "company": "GitHub",
-          "signal_level": "S"
+          "platform": "techcrunch",
+          "title": "Tim Cook stepping down as Apple CEO, John Ternus taking over",
+          "url": "https://techcrunch.com/2026/04/20/tim-cook-stepping-down-as-apple-ceo-john-ternus-taking-over/",
+          "published_at": null,
+          "company": "Apple",
+          "signal_level": "A"
         },
         {
-          "platform": "lobsters",
-          "title": "Death of the IDE?",
-          "url": "https://lobste.rs/s/death-of-ide",
-          "published_at": "2026-04-07T00:00:00Z",
-          "company": null,
+          "platform": "hackernews",
+          "title": "John Ternus to become Apple CEO",
+          "url": "https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/",
+          "published_at": null,
+          "company": "Apple",
+          "signal_level": "A"
+        },
+        {
+          "platform": "theverge",
+          "title": "John Ternus is taking over from Tim Cook as Apple's CEO",
+          "url": "https://www.theverge.com/tech/915272/apple-john-ternus-tim-cook",
+          "published_at": null,
+          "company": "Apple",
           "signal_level": "B"
         },
         {
           "platform": "arstechnica",
-          "title": "Anthropic Accidentally Exposes Claude Code Source via npm Source Map File",
-          "url": "https://feeds.arstechnica.com/arstechnica/index",
-          "published_at": "2026-04-07T00:00:00Z",
-          "company": null,
+          "title": "John Ternus will replace Tim Cook as Apple CEO",
+          "url": "https://arstechnica.com/apple/2026/04/john-ternus-will-replace-tim-cook-as-apple-ceo/",
+          "published_at": null,
+          "company": "Apple",
+          "signal_level": "B"
+        },
+        {
+          "platform": "wired",
+          "title": "Apple CEO Tim Cook Is Stepping Down",
+          "url": "https://www.wired.com/story/tim-cook-stepping-down-ceo-apple-john-ternus/",
+          "published_at": null,
+          "company": "Apple",
           "signal_level": "B"
         }
       ]
     },
     {
       "hotspot_id": "H02",
-      "title": "OpenAI 战略布局：AI 经济愿景、Stargate 安全与领导力危机",
-      "summary": "OpenAI AI 经济白皮书（公共财富基金、机器人税、四天工作周），Stargate 遭伊朗威胁，内部人士质疑 Altman。",
+      "title": "Anthropic融资与Claude战略：$5B亚马逊投资 + Mythos模型争议",
+      "summary": "Anthropic获亚马逊50亿美元融资并承诺1000亿云消耗；Claude Opus 4.7已在Amazon Bedrock上线；同时Mythos专用模型被曝NSA使用，引发安全界对AI助攻网络攻击的担忧。三条消息构成完整战略画面。",
       "category": "trend",
-      "overall_heat_score": 92,
+      "overall_heat_score": 88,
       "coverage": {
         "source_count": 5,
         "companies": [
-          "OpenAI"
+          "Anthropic",
+          "Amazon"
         ],
         "platforms": [
-          "openai",
           "techcrunch",
-          "theverge",
-          "wired",
-          "hackernews"
+          "hackernews",
+          "aws-news",
+          "arstechnica"
         ]
       },
       "should_chase": "yes",
       "chase_rationale": [
-        "OpenAI S级官方发布",
-        "多源Stargate地缘风险",
-        "内部信任危机"
+        "S/A级别信号",
+        "影响云AI格局",
+        "安全影响广泛"
       ],
       "samples": [
         {
-          "platform": "openai",
-          "title": "Announcing the OpenAI Safety Fellowship",
-          "url": "https://openai.com/news/rss.xml",
-          "published_at": "2026-04-07T00:00:00Z",
-          "company": "OpenAI",
-          "signal_level": "S"
-        },
-        {
           "platform": "techcrunch",
-          "title": "OpenAI's vision for the AI economy: public wealth funds, robot taxes, and a four-day workweek",
-          "url": "https://techcrunch.com/feed/",
-          "published_at": "2026-04-07T00:00:00Z",
-          "company": null,
+          "title": "Anthropic takes $5B from Amazon and pledges $100B in cloud spending in return",
+          "url": "https://techcrunch.com/2026/04/20/anthropic-takes-5b-from-amazon-and-pledges-100b-in-cloud-spending-in-return/",
+          "published_at": null,
+          "company": "Anthropic",
           "signal_level": "A"
         },
         {
-          "platform": "wired",
-          "title": "The problem is Sam Altman: OpenAI Insiders don't trust CEO",
-          "url": "https://www.wired.com/feed/rss",
-          "published_at": "2026-04-07T00:00:00Z",
-          "company": null,
+          "platform": "aws-news",
+          "title": "AWS Weekly Roundup: Claude Opus 4.7 in Amazon Bedrock, AWS Interconnect GA, and more (April 20, 2026)",
+          "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-claude-opus-4-7-in-amazon-bedrock-aws-interconnect-ga-and-more-april-20-2026/",
+          "published_at": null,
+          "company": "Amazon",
+          "signal_level": "A"
+        },
+        {
+          "platform": "techcrunch",
+          "title": "NSA spies are reportedly using Anthropic's Mythos, despite Pentagon feud",
+          "url": "https://techcrunch.com/2026/04/20/nsa-spies-are-reportedly-using-anthropics-mythos-despite-pentagon-feud/",
+          "published_at": null,
+          "company": "Anthropic",
+          "signal_level": "A"
+        },
+        {
+          "platform": "arstechnica",
+          "title": "Anthropic's Mythos AI model sparks fears of turbocharged hacking",
+          "url": "https://arstechnica.com/ai/2026/04/anthropics-mythos-ai-model-sparks-fears-of-turbocharged-hacking/",
+          "published_at": null,
+          "company": "Anthropic",
           "signal_level": "B"
         },
         {
-          "platform": "theverge",
-          "title": "Iran threatens Stargate AI data centers",
-          "url": "https://www.theverge.com/rss/index.xml",
-          "published_at": "2026-04-07T00:00:00Z",
-          "company": null,
-          "signal_level": "B"
+          "platform": "hackernews",
+          "title": "Anthropic says OpenClaw-style Claude CLI usage is allowed again",
+          "url": "https://docs.openclaw.ai/providers/anthropic",
+          "published_at": null,
+          "company": "Anthropic",
+          "signal_level": "A"
         }
       ]
     },
     {
       "hotspot_id": "H03",
-      "title": "Artemis II 月球飞越：人类航天新纪录",
-      "summary": "Artemis II 宇航员完成人类史上最远地球距离纪录并飞越月球远侧。",
+      "title": "Cloudflare Agents Week 2026：AI Agent云基础设施全面发布",
+      "summary": "Cloudflare集中发布Agent Week成果：Project Think持久运行时、AI内部工程栈、大规模AI代码评审编排等，展示了其作为AI Agent基础设施提供商的完整布局。",
       "category": "trend",
-      "overall_heat_score": 85,
+      "overall_heat_score": 82,
       "coverage": {
-        "source_count": 4,
-        "companies": [],
+        "source_count": 3,
+        "companies": [
+          "Cloudflare"
+        ],
         "platforms": [
-          "theverge",
-          "arstechnica",
-          "wired",
-          "techcrunch"
+          "cloudflare",
+          "infoq"
         ]
       },
-      "should_chase": "no",
+      "should_chase": "yes",
       "chase_rationale": [
-        "大众科技媒体集中报道"
+        "官方多篇联合发布",
+        "Agent基础设施方向",
+        "工程决策相关"
       ],
       "samples": [
         {
-          "platform": "theverge",
-          "title": "Artemis II: Everything We Know as Its Crew Approaches the Far Side of the Moon",
-          "url": "https://www.theverge.com/rss/index.xml",
-          "published_at": "2026-04-07T00:00:00Z",
-          "company": null,
-          "signal_level": "B"
+          "platform": "cloudflare",
+          "title": "Building the agentic cloud: everything we launched during Agents Week 2026",
+          "url": "https://blog.cloudflare.com/agents-week-in-review/",
+          "published_at": null,
+          "company": "Cloudflare",
+          "signal_level": "A"
         },
         {
-          "platform": "arstechnica",
-          "title": "Artemis II astronauts break a record, name a crater",
-          "url": "https://feeds.arstechnica.com/arstechnica/index",
-          "published_at": "2026-04-07T00:00:00Z",
-          "company": null,
-          "signal_level": "B"
+          "platform": "cloudflare",
+          "title": "The AI engineering stack we built internally — on the platform we ship",
+          "url": "https://blog.cloudflare.com/the-ai-engineering-stack-we-built-internally/",
+          "published_at": null,
+          "company": "Cloudflare",
+          "signal_level": "A"
         },
         {
-          "platform": "wired",
-          "title": "NASA Artemis II mission",
-          "url": "https://www.wired.com/feed/rss",
-          "published_at": "2026-04-07T00:00:00Z",
-          "company": null,
+          "platform": "cloudflare",
+          "title": "Orchestrating AI Code Review at scale",
+          "url": "https://blog.cloudflare.com/orchestrating-ai-code-review/",
+          "published_at": null,
+          "company": "Cloudflare",
+          "signal_level": "A"
+        },
+        {
+          "platform": "infoq",
+          "title": "Cloudflare Introduces Project Think: A Durable Runtime for AI Agents",
+          "url": "https://www.infoq.com/news/2026/04/cloudflare-project-think/",
+          "published_at": null,
+          "company": "Cloudflare",
           "signal_level": "B"
         }
       ]
     },
     {
       "hotspot_id": "H04",
-      "title": "AI 机器人技术突破：GEN-1 可靠性 99%、机器人割草机与自动驾驶出租车",
-      "summary": "Physical AI 周：GEN-1 达到 99% 可靠性；NVIDIA National Robotics Week；机器人割草机商业化；自动驾驶出租车透明度受质疑。",
-      "category": "trend",
-      "overall_heat_score": 82,
+      "title": "GitHub Copilot个人计划重大调整",
+      "summary": "GitHub宣布对Copilot Individual个人计划进行重要变更，以确保现有用户获得可靠、可预测的体验。这是官方S级信号，直接影响个人开发者的AI编程工具使用策略。",
+      "category": "single",
+      "overall_heat_score": 78,
       "coverage": {
-        "source_count": 3,
+        "source_count": 1,
         "companies": [
-          "NVIDIA"
+          "GitHub"
         ],
         "platforms": [
-          "nvidia",
-          "wired",
-          "theverge"
+          "github-blog"
         ]
       },
       "should_chase": "yes",
       "chase_rationale": [
-        "NVIDIA A级 Physical AI 官方更新",
-        "GEN-1 99%可靠性里程碑"
+        "S级官方信号",
+        "影响个人开发者工具链",
+        "需要评估升级/变更成本"
       ],
       "samples": [
         {
-          "platform": "nvidia",
-          "title": "National Robotics Week — Latest Physical AI Research, Breakthroughs and Resources",
-          "url": "https://blogs.nvidia.com/feed/",
-          "published_at": "2026-04-07T00:00:00Z",
-          "company": "NVIDIA",
-          "signal_level": "A"
-        },
-        {
-          "platform": "theverge",
-          "title": "From folding boxes to fixing vacuums, GEN-1 robotics model hits 99% reliability",
-          "url": "https://www.theverge.com/rss/index.xml",
-          "published_at": "2026-04-07T00:00:00Z",
-          "company": null,
-          "signal_level": "B"
-        },
-        {
-          "platform": "wired",
-          "title": "Robot Mowers Are Actually Good Now",
-          "url": "https://www.wired.com/feed/rss",
-          "published_at": "2026-04-07T00:00:00Z",
-          "company": null,
-          "signal_level": "B"
+          "platform": "github-blog",
+          "title": "Changes to GitHub Copilot Individual plans",
+          "url": "https://github.blog/news-insights/company-news/changes-to-github-copilot-individual-plans/",
+          "published_at": null,
+          "company": "GitHub",
+          "signal_level": "S"
         }
       ]
     },
     {
       "hotspot_id": "H05",
-      "title": "Anthropic 扩张：Google/Broadcom 算力合作与 Claude Code 源码意外曝光",
-      "summary": "Anthropic 与 Google、Broadcom 扩大下一代算力合作；Claude Code npm source map 意外公开部分源代码。",
+      "title": "Git 2.54 发布：新特性一览",
+      "summary": "Git 2.54正式发布，GitHub整理了最值得关注的新特性与改进。作为广泛使用的版本控制系统的重要更新，是S级工具链信号，开发团队应关注升级时间表。",
       "category": "single",
-      "overall_heat_score": 88,
+      "overall_heat_score": 72,
+      "coverage": {
+        "source_count": 1,
+        "companies": [
+          "GitHub"
+        ],
+        "platforms": [
+          "github-blog"
+        ]
+      },
+      "should_chase": "yes",
+      "chase_rationale": [
+        "S级官方Release",
+        "核心工具链更新",
+        "影响所有工程团队"
+      ],
+      "samples": [
+        {
+          "platform": "github-blog",
+          "title": "Highlights from Git 2.54",
+          "url": "https://github.blog/open-source/git/highlights-from-git-2-54/",
+          "published_at": null,
+          "company": "GitHub",
+          "signal_level": "S"
+        }
+      ]
+    },
+    {
+      "hotspot_id": "H06",
+      "title": "AI生成内容泛滥：Deezer平台44%上传音乐为AI生成",
+      "summary": "Deezer报告称其平台每日上传音乐中44%为AI生成，且大部分流量为欺诈性刷量。这一数据在techcrunch和arstechnica均有报道，揭示AI内容生成已对创意产业造成实质性冲击。",
+      "category": "trend",
+      "overall_heat_score": 70,
       "coverage": {
         "source_count": 2,
-        "companies": [
-          "Anthropic",
-          "Google",
-          "Broadcom"
-        ],
+        "companies": [],
         "platforms": [
           "techcrunch",
           "arstechnica"
@@ -230,227 +275,208 @@
       },
       "should_chase": "yes",
       "chase_rationale": [
-        "Anthropic S级战略动向",
-        "Claude Code源码曝光竞争情报"
+        "跨媒体共振",
+        "AI内容监管前沿",
+        "影响内容平台战略"
       ],
       "samples": [
         {
           "platform": "techcrunch",
-          "title": "Anthropic expands partnership with Google and Broadcom for next-gen compute",
-          "url": "https://techcrunch.com/feed/",
-          "published_at": "2026-04-07T00:00:00Z",
+          "title": "Deezer says 44% of songs uploaded to its platform daily are AI-generated",
+          "url": "https://techcrunch.com/2026/04/20/deezer-says-44-of-songs-uploaded-to-its-platform-daily-are-ai-generated/",
+          "published_at": null,
           "company": null,
           "signal_level": "A"
         },
         {
           "platform": "arstechnica",
-          "title": "Anthropic Accidentally Exposes Claude Code Source via npm Source Map File",
-          "url": "https://feeds.arstechnica.com/arstechnica/index",
-          "published_at": "2026-04-07T00:00:00Z",
+          "title": "Deezer says 44% of new music uploads are AI-generated, most streams are fraudulent",
+          "url": "https://arstechnica.com/ai/2026/04/deezer-says-44-of-new-music-uploads-are-ai-generated-most-streams-are-fraudulent/",
+          "published_at": null,
           "company": null,
           "signal_level": "B"
         }
       ]
     },
     {
-      "hotspot_id": "H06",
-      "title": "ChatGPT 第三方应用集成：DoorDash、Spotify、Uber 接入",
-      "summary": "ChatGPT app integrations 接入 DoorDash、Spotify、Uber，AI 助手向生活操作系统演进。",
+      "hotspot_id": "H07",
+      "title": "Vercel安全事件：平台被黑，用户数据泄露",
+      "summary": "应用托管平台Vercel确认发生安全事故，通过context.ai供应商的数据泄露导致用户数据被盗。hackernews和techcrunch均有报道，涉及供应链安全问题。",
       "category": "trend",
-      "overall_heat_score": 80,
+      "overall_heat_score": 68,
       "coverage": {
-        "source_count": 3,
-        "companies": [
-          "OpenAI"
-        ],
+        "source_count": 2,
+        "companies": [],
         "platforms": [
-          "theverge",
           "hackernews",
           "techcrunch"
         ]
       },
       "should_chase": "yes",
       "chase_rationale": [
-        "AI助手生态扩张里程碑",
-        "多源报道"
+        "安全事件需快速响应",
+        "影响Vercel用户",
+        "供应链攻击模式值得警惕"
       ],
       "samples": [
         {
-          "platform": "theverge",
-          "title": "How to use the new ChatGPT app integrations, including DoorDash, Spotify, Uber, and others",
-          "url": "https://www.theverge.com/rss/index.xml",
-          "published_at": "2026-04-07T00:00:00Z",
-          "company": null,
-          "signal_level": "B"
-        },
-        {
           "platform": "techcrunch",
-          "title": "How to use the new ChatGPT app integrations",
-          "url": "https://techcrunch.com/feed/",
-          "published_at": "2026-04-07T00:00:00Z",
+          "title": "App host Vercel says it was hacked and customer data stolen",
+          "url": "https://techcrunch.com/2026/04/20/app-host-vercel-confirms-security-incident-says-customer-data-was-stolen-via-breach-at-context-ai/",
+          "published_at": null,
           "company": null,
           "signal_level": "A"
         },
         {
           "platform": "hackernews",
-          "title": "ChatGPT app integrations",
-          "url": "https://news.ycombinator.com/rss",
-          "published_at": "2026-04-07T00:00:00Z",
+          "title": "A Roblox cheat and one AI tool brought down Vercel's platform",
+          "url": "https://webmatrices.com/post/how-a-roblox-cheat-and-one-ai-tool-brought-down-vercel-s-entire-platform",
+          "published_at": null,
           "company": null,
-          "signal_level": "A"
-        }
-      ]
-    },
-    {
-      "hotspot_id": "H07",
-      "title": "AWS DevOps AI Agent & Security Agent 正式发布",
-      "summary": "AWS DevOps Agent 与 Security Agent 正式 GA，含 Product Lifecycle 更新。",
-      "category": "single",
-      "overall_heat_score": 84,
-      "coverage": {
-        "source_count": 1,
-        "companies": [
-          "Amazon"
-        ],
-        "platforms": [
-          "aws-news"
-        ]
-      },
-      "should_chase": "yes",
-      "chase_rationale": [
-        "AWS A级官方公告，DevOps Agent GA 平台级里程碑"
-      ],
-      "samples": [
-        {
-          "platform": "aws-news",
-          "title": "AWS Weekly Roundup: AWS DevOps Agent & Security Agent GA, Product Lifecycle updates, and more (April 6, 2026)",
-          "url": "https://aws.amazon.com/blogs/aws/feed/",
-          "published_at": "2026-04-06T00:00:00Z",
-          "company": "Amazon",
           "signal_level": "A"
         }
       ]
     },
     {
       "hotspot_id": "H08",
-      "title": "供应链安全警报：朝鲜 npm 包劫持与 BrowserStack 私钥泄露",
-      "summary": "朝鲜黑客提前数周策划劫持热门 npm 包；BrowserStack 本地代理泄露用户私钥及邮箱。",
+      "title": "Google Gemini扩展与ADK生态系统更新",
+      "summary": "Google推进Gemini多方面扩展：Gemini在Chrome已扩展至7个新国家；Gemini CLI支持子代理任务委托和并行工作流；ADK for Java 1.0发布，引入新应用插件架构和外部工具支持。",
       "category": "trend",
-      "overall_heat_score": 81,
+      "overall_heat_score": 65,
       "coverage": {
         "source_count": 3,
-        "companies": [],
+        "companies": [
+          "Google"
+        ],
         "platforms": [
-          "wired",
-          "lobsters",
-          "arstechnica"
+          "techcrunch",
+          "infoq",
+          "devto"
         ]
       },
       "should_chase": "yes",
       "chase_rationale": [
-        "供应链攻击对npm生态直接风险",
-        "多安全事件同周爆发"
+        "官方产品更新",
+        "AI开发者工具链",
+        "多来源覆盖"
       ],
       "samples": [
         {
-          "platform": "wired",
-          "title": "North Korea's hijack of one of the web's most used open source projects was likely weeks in the making",
-          "url": "https://www.wired.com/feed/rss",
-          "published_at": "2026-04-07T00:00:00Z",
-          "company": null,
+          "platform": "techcrunch",
+          "title": "Google rolls out Gemini in Chrome in 7 new countries",
+          "url": "https://techcrunch.com/2026/04/20/google-rolls-out-gemini-in-chrome-in-seven-new-countries/",
+          "published_at": null,
+          "company": "Google",
+          "signal_level": "A"
+        },
+        {
+          "platform": "infoq",
+          "title": "Subagents in Gemini CLI Enable Task Delegation and Parallel Agent Workflows",
+          "url": "https://www.infoq.com/news/2026/04/subagents-gemini-cli/",
+          "published_at": null,
+          "company": "Google",
           "signal_level": "B"
         },
         {
-          "platform": "lobsters",
-          "title": "BrowserStack local leaking private key",
-          "url": "https://lobste.rs/s/browserstack-local-leaking-private-key",
-          "published_at": "2026-04-07T00:00:00Z",
-          "company": null,
+          "platform": "infoq",
+          "title": "Google ADK for Java 1.0 Introduces New App and Plugin Architecture, External Tools Support",
+          "url": "https://www.infoq.com/news/2026/04/google-adk-1-0-new-architecture/",
+          "published_at": null,
+          "company": "Google",
           "signal_level": "B"
         },
         {
-          "platform": "arstechnica",
-          "title": "Someone at BrowserStack is Leaking Users Email Address",
-          "url": "https://feeds.arstechnica.com/arstechnica/index",
-          "published_at": "2026-04-07T00:00:00Z",
-          "company": null,
+          "platform": "devto",
+          "title": "Orchestrating Agents via ADK for TypeScript and Gemini CLI",
+          "url": "https://dev.to/gde/orchestrating-agents-via-adk-for-typescript-and-gemini-cli-jco",
+          "published_at": null,
+          "company": "Google",
           "signal_level": "B"
         }
       ]
     },
     {
       "hotspot_id": "H09",
-      "title": "Cloudflare Organizations：企业级多账户管理 GA",
-      "summary": "Cloudflare 发布 Organizations 功能，帮助企业统一管理 Cloudflare 资源。",
+      "title": "NVIDIA AI制造与企业级Agent落地",
+      "summary": "NVIDIA在汉诺威工博会展示AI驱动制造业未来，Adobe Agents结合NVIDIA技术实现创意智能突破，展示了企业级AI Agent的实际规模化部署。",
       "category": "single",
-      "overall_heat_score": 76,
+      "overall_heat_score": 60,
       "coverage": {
         "source_count": 1,
         "companies": [
-          "Cloudflare"
+          "NVIDIA"
         ],
         "platforms": [
-          "cloudflare"
+          "nvidia"
         ]
       },
-      "should_chase": "yes",
+      "should_chase": "no",
       "chase_rationale": [
-        "Cloudflare A级官方发布"
+        "官方展示性内容",
+        "关注行业落地趋势"
       ],
       "samples": [
         {
-          "platform": "cloudflare",
-          "title": "How we built Organizations to help enterprises manage Cloudflare at scale",
-          "url": "https://blog.cloudflare.com/rss/",
-          "published_at": "2026-04-07T00:00:00Z",
-          "company": "Cloudflare",
+          "platform": "nvidia",
+          "title": "Autonomous AI at Scale: Adobe Agents Unlock Breakthrough Creative Intelligence With NVIDIA",
+          "url": "https://blogs.nvidia.com/blog/adobe-ai-agents-nvidia-wpp/",
+          "published_at": null,
+          "company": "NVIDIA",
+          "signal_level": "A"
+        },
+        {
+          "platform": "nvidia",
+          "title": "NVIDIA and Partners Showcase the Future of AI-Driven Manufacturing at Hannover Messe 2026",
+          "url": "https://blogs.nvidia.com/blog/ai-manufacturing-hannover-messe/",
+          "published_at": null,
+          "company": "NVIDIA",
           "signal_level": "A"
         }
       ]
     },
     {
       "hotspot_id": "H10",
-      "title": "AI 经济与就业：四天工作周、机器人税与小卖家的 AI 转型",
-      "summary": "AI 经济政策讨论：机器人税、公共财富基金；AI 对小企业主实际影响；媒体分析 AI 与工作关系。",
+      "title": "AI Agent工程架构：记忆、编排与安全的系统性讨论",
+      "summary": "多篇技术文章聚焦AI Agent工程化：LinkedIn认知记忆Agent架构设计、Harness Engineering最重要部分分析、零服务器PII清除工具等，形成Agent工程最佳实践的讨论趋势。",
       "category": "trend",
-      "overall_heat_score": 79,
+      "overall_heat_score": 58,
       "coverage": {
-        "source_count": 4,
+        "source_count": 3,
         "companies": [],
         "platforms": [
-          "techcrunch",
-          "wired",
-          "mit-technology-review",
-          "devto"
+          "infoq",
+          "devto",
+          "huggingface"
         ]
       },
       "should_chase": "yes",
       "chase_rationale": [
-        "政策与现实双维度叙事",
-        "跨媒体多视角"
+        "Agent工程实践",
+        "多源共振",
+        "对开发团队有直接参考价值"
       ],
       "samples": [
         {
-          "platform": "techcrunch",
-          "title": "OpenAI's vision for the AI economy: public wealth funds, robot taxes, and a four-day workweek",
-          "url": "https://techcrunch.com/feed/",
-          "published_at": "2026-04-07T00:00:00Z",
-          "company": null,
-          "signal_level": "A"
-        },
-        {
-          "platform": "wired",
-          "title": "AI is changing how small online sellers decide what to make",
-          "url": "https://www.wired.com/feed/rss",
-          "published_at": "2026-04-07T00:00:00Z",
+          "platform": "infoq",
+          "title": "Designing Memory for AI Agents: Inside Linkedin's Cognitive Memory Agent",
+          "url": "https://www.infoq.com/news/2026/04/linkedin-cognitive-memory-agent/",
+          "published_at": null,
           "company": null,
           "signal_level": "B"
         },
         {
-          "platform": "mit-technology-review",
-          "title": "The one piece of data that could actually shed light on your job and AI",
-          "url": "https://www.technologyreview.com/feed/",
-          "published_at": "2026-04-07T00:00:00Z",
+          "platform": "devto",
+          "title": "Harness Engineering: The Most Important Part of AI Agents",
+          "url": "https://dev.to/eleonorarocchi/harness-engineering-la-parte-piu-importante-degli-agenti-ai-4jnd",
+          "published_at": null,
+          "company": null,
+          "signal_level": "B"
+        },
+        {
+          "platform": "devto",
+          "title": "How I Built a Zero-Server PII Scrubber for ChatGPT (It Works in Airplane Mode)",
+          "url": "https://dev.to/gde/how-i-built-a-zero-server-pii-scrubber-for-chatgpt-it-works-in-airplane-mode",
+          "published_at": null,
           "company": null,
           "signal_level": "B"
         }
@@ -458,37 +484,37 @@
     },
     {
       "hotspot_id": "H11",
-      "title": "量子计算时间线重估：密码学工程师视角",
-      "summary": "密码学工程师深度分析量子计算时间线，质疑主流乐观预期，提醒密码基础设施迁移窗口有限。",
+      "title": "量子计算不威胁128位对称加密——安全神话破除",
+      "summary": "多来源文章指出量子计算机目前不足以威胁128位对称密钥安全，为当前加密实践正名。lobsters和hackernews均有讨论，对安全团队有澄清价值。",
       "category": "trend",
-      "overall_heat_score": 74,
+      "overall_heat_score": 52,
       "coverage": {
         "source_count": 2,
         "companies": [],
         "platforms": [
-          "arstechnica",
+          "hackernews",
           "lobsters"
         ]
       },
-      "should_chase": "yes",
+      "should_chase": "no",
       "chase_rationale": [
-        "安全基础设施话题跨平台共振",
-        "密码学工程师一手观点"
+        "安全领域澄清性内容",
+        "有教育价值但非紧急"
       ],
       "samples": [
         {
-          "platform": "arstechnica",
-          "title": "A cryptography engineer perspective on quantum computing timelines",
-          "url": "https://feeds.arstechnica.com/arstechnica/index",
-          "published_at": "2026-04-07T00:00:00Z",
+          "platform": "hackernews",
+          "title": "Quantum Computers Are Not a Threat to 128-Bit Symmetric Keys",
+          "url": "https://news.ycombinator.com/item?id=47844539",
+          "published_at": null,
           "company": null,
-          "signal_level": "B"
+          "signal_level": "A"
         },
         {
           "platform": "lobsters",
-          "title": "A Cryptography Engineer Perspective on Quantum Computing Timelines",
-          "url": "https://lobste.rs/s/quantum-cryptography",
-          "published_at": "2026-04-07T00:00:00Z",
+          "title": "Quantum Computers Are Not a Threat to 128-bit Symmetric Keys",
+          "url": "https://lobste.rs/s/quantum_symmetric",
+          "published_at": null,
           "company": null,
           "signal_level": "B"
         }
@@ -496,41 +522,30 @@
     },
     {
       "hotspot_id": "H12",
-      "title": "Google 开源 Scion 多智能体编排测试床 & 离线 AI 听写应用",
-      "summary": "Google 开源实验性多智能体编排测试床 Scion；悄然上线可离线工作的 AI 听写应用。",
+      "title": "Qwen3.6-Max-Preview：阿里新一代LLM预览版发布",
+      "summary": "hackernews出现Qwen3.6-Max-Preview讨论，展示更强更锐的推理能力，仍在持续迭代中。作为中国大模型的重要节点，值得AI研究者和工具链团队关注。",
       "category": "single",
-      "overall_heat_score": 78,
+      "overall_heat_score": 50,
       "coverage": {
-        "source_count": 2,
-        "companies": [
-          "Google"
-        ],
+        "source_count": 1,
+        "companies": [],
         "platforms": [
-          "hackernews",
-          "theverge"
+          "hackernews"
         ]
       },
-      "should_chase": "yes",
+      "should_chase": "no",
       "chase_rationale": [
-        "Google开源多智能体工具",
-        "离线AI预示端侧加速"
+        "预览版，需等正式发布",
+        "关注中国AI大模型竞争格局"
       ],
       "samples": [
         {
           "platform": "hackernews",
-          "title": "Google Open Sources Experimental Multi-Agent Orchestration Testbed Scion",
-          "url": "https://news.ycombinator.com/rss",
-          "published_at": "2026-04-07T00:00:00Z",
+          "title": "Qwen3.6-Max-Preview: Smarter, Sharper, Still Evolving",
+          "url": "https://news.ycombinator.com/item?id=47844538",
+          "published_at": null,
           "company": null,
           "signal_level": "A"
-        },
-        {
-          "platform": "theverge",
-          "title": "Google quietly launched an AI dictation app that works offline",
-          "url": "https://www.theverge.com/rss/index.xml",
-          "published_at": "2026-04-07T00:00:00Z",
-          "company": null,
-          "signal_level": "B"
         }
       ]
     }
